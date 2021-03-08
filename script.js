@@ -22,7 +22,7 @@ $(".time-block").each(function(i, elem) {
         $("#elemId").addClass("past");
     } else if (currHour = idHour) {
         $("#elemId").addClass("present");
-    } else if (currHour >= idHour) {
+    } else {
     $("#elemId").addClass("future");
 }
 })
